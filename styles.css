@@ -1,0 +1,130 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Header */
+header {
+    background-color: white;
+    padding: 20px 0;
+    border-bottom: 2px solid black;
+}
+
+.logo h1 {
+    margin: 0;
+    color: black;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background-color: black;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.hero p {
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.cta-button {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+/* Pricing Section */
+.pricing {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.pricing h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.pricing-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    border: 2px solid black;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+.card h3 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.card p {
+    font-size: 20px;
+    margin: 10px 0 0;
+}
+
+/* Footer */
+footer {
+    background-color: white;
+    padding: 20px 0;
+    border-top: 2px solid black;
+    text-align: center;
+}
+
+.footer-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-content ul li a {
+    text-decoration: none;
+    color: black;
+}
+@media (max-width: 768px) {
+    .pricing-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+}
